@@ -1,0 +1,15 @@
+from tkinter import *
+ 
+root =Tk()
+A=IntVar()
+B=IntVar()
+C=IntVar()
+L1 = Label(root, text="主要临床表现：")
+L1.pack()
+a = Checkbutton(root, text = "急性", variable=A)
+a.pack(side = LEFT)
+b = Checkbutton(root, text = "亚急性", variable=B)
+b.pack(side = LEFT)
+c = Checkbutton(root, text = "慢性", variable=C)
+c.pack(side = LEFT)
+root.mainloop()
